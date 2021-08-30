@@ -26,7 +26,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'CS',
           activeBaseRegex: `/docs/`,
         },
         {
