@@ -13,6 +13,7 @@ module.exports = {
   organizationName: 'Kanrin-Cyou', // Usually your GitHub org/user name.
   projectName: "myBlog", // Usually your repo name.
 
+  
   themeConfig: {
     navbar: {
       title: "",
