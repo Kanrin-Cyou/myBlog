@@ -3,19 +3,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Guanlun's Blog",
+  tagline: "I'm a self-taught programmer with years experience in Quantum Physics and now specialized in software development.",
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Kanrin-Cyou', // Usually your GitHub org/user name.
+  projectName: "myBlog", // Usually your repo name.
 
   themeConfig: {
     navbar: {
-      title: "Guanlun's Blog",
+      title: "",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -43,7 +43,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Kanrin-Cyou',
           label: 'GitHub',
           position: 'right',
         },
@@ -57,43 +57,51 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'CS',
               to: '/docs/intro',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'English',
+              to: '/docs-english/intro',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Japanese',
+              to: '/docs-japanese/intro',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Network',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/guanlun-zhao-548b71174/',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/kanrincyou/',
+            },
+          ],
+        },
+        {
+          title: 'Tech',
+          items: [
+            {
+              label: 'Resume',
+              href: 'https://guanlunportfolio.netlify.app/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Kanrin-Cyou',
+            },
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/users/14943506/kanrin-cyou',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
