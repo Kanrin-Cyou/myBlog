@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: "Guanlun's Blog",
   tagline: "I'm a self-taught programmer with years experience in Quantum Physics and now specialized in software development.",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://guanlunblog.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,7 +18,7 @@ module.exports = {
       title: "",
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo2.svg',
       },
       items: [
         {
@@ -41,12 +41,12 @@ module.exports = {
           label: 'Japanese',
           activeBaseRegex: `/docs-japanese/`,
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Kanrin-Cyou',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        // {
+        //   href: 'https://github.com/Kanrin-Cyou',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     

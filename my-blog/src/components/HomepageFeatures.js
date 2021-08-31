@@ -4,32 +4,31 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Study Globally ',
+    Svg: require('../../static/img/undraw_Traveling_re_weve.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      <>  
+        I grew up in China and obtained my bachelor's degree from University of Waterloo in Canada.
+        Now I am studying at Waseda University in Tokyo.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Programming',
+    Svg: require('../../static/img/undraw_Firmware_jw6u.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        During my studies in University, I gained years experience in programming.
+        I love programming and building application that benefits people. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Future',
+    Svg: require('../../static/img/undraw_counting_stars_rrnl.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      If plan A doesn't work, I'll go get another new plan A. I don't settle for plan B.
       </>
     ),
   },
