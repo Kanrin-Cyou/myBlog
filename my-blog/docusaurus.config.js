@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: "Guanlun's Blog",
   tagline: "I'm a self-taught programmer with years experience in Quantum Physics and now specialized in software development.",
-  url: 'https://guanlunblog.netlify.app',
+  url: 'https://guanlunblog.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
