@@ -45,6 +45,8 @@ export const Highlight = ({children, color}) => (
 
 ## 述语
 
+四种文体
+
 名词句：
 - 〇〇は何だ:是什么
 - 〇〇は誰だ:是谁
@@ -58,6 +60,7 @@ export const Highlight = ({children, color}) => (
 动词句：
 - 〇〇が何をする:要做什么
 - 〇〇が何をした:做了什么
+
 
 ## 补足语
 
