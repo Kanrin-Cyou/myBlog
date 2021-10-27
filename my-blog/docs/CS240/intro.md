@@ -2,34 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Syllabus 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Course Description 
+Introduction to widely used and effective methods of data organization, 
+focusing on data structures, their algorithms, and the performance of these algorithms.
+Specific topics include 
+- Priority Queues, 
+- Sorting, 
+- Dictionaries, 
+- Data Structures for text processing.
 
-## Getting Started
+Prereq: (CS 245 or SE 212), (one of CS 241, 246, 247), (one of STAT 206, 230, 240); Computer Science and BMath (Data Science) students only.
+Antireq: BME 122, CS 234, ECE 250, MTE 140, SYDE 223
 
-Get started by **creating a new site**.
+## Course Source
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.

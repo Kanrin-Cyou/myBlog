@@ -2,34 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Syllabus 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Course Description 
+Introduction to modeling and algorithmic techniques for machines to learn concepts from data. Generalization: underfitting, overfitting, cross-validation. 
 
-## Getting Started
+Tasks: classification, regression, clustering. Optimization-based learning: loss minimization. regularization. Statistical learning: maximum likelihood, Bayesian learning. 
 
-Get started by **creating a new site**.
+Algorithms: nearest neighbour, (generalized) linear regression, mixtures of Gaussians, Gaussian processes, kernel methods, support vector machines, deep learning, sequence learning, ensemble techniques. Large scale learning: distributed learning and stream learning. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Applications: Natural language processing, computer vision, data mining, human computer interaction, information retrieval.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: F,W,S]
+Prereq: CS 341 and (STAT 206 or 231 or 241); Computer Science and BMath (Data Science) students only.
+ 
+## Course Source

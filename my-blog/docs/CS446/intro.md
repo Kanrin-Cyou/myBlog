@@ -2,34 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Syllabus 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Course Description 
 
-## Getting Started
+Introduces students to the design, implementation, and evolution phases of software development. 
 
-Get started by **creating a new site**.
+Software design processes, methods, and notation. Implementation of designs. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Evolution of designs and implementations. Management of design activities.
 
-## Generate a new site
+Prereq: CS 350; Computer Science students only.
+Antireq: CS 430, SE 464
 
-Generate a new Docusaurus site using the **classic template**:
+## Course Source
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
 
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.

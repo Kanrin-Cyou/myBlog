@@ -2,34 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Syllabus 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Course Description 
+Overview of computer organization and performance. 
+- Basics of digital logic design. 
+- Combinational and sequential elements. 
+- Data representation and manipulation. 
+- Basics of processor design. 
+- Pipelining. 
+- Memory hierarchies. 
+- Multiprocessors.
+Prereq: One of CS136, 138, 146; Computer Science and BMath (Data Science) students only.
+Antireq: BME 292/393, ECE 222, ME 262, MTE 262, SYDE 192
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## Course Source
