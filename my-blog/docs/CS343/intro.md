@@ -42,11 +42,11 @@ Splitting a single task into subtasks which can be executed in parallel.
 ![Parallelism](/img/cs/cs343/Parallelism.jpg)
 
 ### Issue of Concurrency
-![Issues](/img/cs/cs343/issues.jpg)
+![Issues](/img/cs/cs343/Issues.jpg)
 
 ### Thread Pool
 If you need to execuate many tasks:
 1. You can assign each task with a specific Thread.
-2. You can assign all the task to a Thread Pool
+2. You can assign all the tasks to a Thread Pool with pre-created Threads execute the tasks one by one.
 ![Pool](/img/cs/cs343/pool.jpg)
 
