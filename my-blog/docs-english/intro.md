@@ -20,12 +20,15 @@ export const Highlight = ({children, color}) => (
 
 动词又含有：时态，语态，情态，语气
 
+句子分为：简单句，并列句，复杂句
+
 <Highlight color="#1877F2">英语一主一谓原则 =&gt; 一个句子只能有一个谓语动词</Highlight>
 
-3大类句法：
--	<Highlight color="#1877F2">主句+连接词+从句</Highlight>
--	<Highlight color="#1877F2">连接词+从句，主句</Highlight>
-- 连接词的种类表明逻辑关系:
+-	<Highlight color="#25c2a0">主句+连接词+从句</Highlight>
+-	<Highlight color="#25c2a0">连接词+从句，主句</Highlight>
+
+<Highlight color="#1877F2">连接词的种类表明逻辑关系:</Highlight>
+
 - <Highlight color="#25c2a0">名词性从句</Highlight> （主语从句，宾语从句，表语从句，同位语从句）
 - <Highlight color="#25c2a0">形容词从句</Highlight> （定语从句，包括限制性和非限制性）
 - <Highlight color="#25c2a0">副词性从句</Highlight> （时间地点原因结构目的条件让步方式比较等）

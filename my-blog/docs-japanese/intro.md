@@ -16,14 +16,11 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-## 日语结构
+## Reference
+- [大家學標準日本語：日語結構解密](https://www.books.com.tw/products/0010759776)
+- [国語の文法](https://www.kokugobunpou.com/#gsc.tab=0)
+- [どんなときどう使う日本語表現文型](https://www.amazon.co.jp/%E3%81%A9%E3%82%93%E3%81%AA%E3%81%A8%E3%81%8D%E3%81%A9%E3%81%86%E4%BD%BF%E3%81%86%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A1%A8%E7%8F%BE%E6%96%87%E5%9E%8B%E8%BE%9E%E5%85%B8-%E5%8F%8B%E6%9D%BE-%E6%82%A6%E5%AD%90/dp/4757418868)
 
-- 文章
-- 段落
-- 句子：以（。）为标志。
-- 节（复文）
-- 词组：友達と
-- 单词：友達
 
 ## 日语原则
 
@@ -36,6 +33,15 @@ export const Highlight = ({children, color}) => (
 <Highlight color="#1877F2">一句话可以有多个述语，出现「节」，称之为「复文」。</Highlight>
 
 - 時間が`あったら`、いつも日本語を`研究しています`。
+
+## 日语结构
+
+- 文章
+- 段落
+- 句子：以（。）为标志。
+- 节（复文）
+- 词组：友達と
+- 单词：友達
 
 ## 日语句子结构
 
