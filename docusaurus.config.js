@@ -1,4 +1,4 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/dracula');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -15,12 +15,14 @@ module.exports = {
 
   
   themeConfig: {
+
     navbar: {
       title: "",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo2.svg',
       },
+      
       items: [
         {
           to: '/docs/intro',
@@ -104,11 +106,14 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus.`,
     },
+
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+      additionalLanguages: ['java'],
     },
   },
+
   presets: [
     [
       '@docusaurus/preset-classic',
