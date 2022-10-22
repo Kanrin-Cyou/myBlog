@@ -20,6 +20,8 @@ export const Highlight = ({children, color}) => (
 
 动词又含有：时态，语态，情态，语气
 
+英语习惯用形式补充内容：把谓语动词的时态改变
+
 句子分为：简单句，并列句，复杂句
 
 <Highlight color="#1877F2">英语一主一谓原则 =&gt; 一个句子只能有一个谓语动词</Highlight>
