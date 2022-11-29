@@ -49,7 +49,7 @@ Abstraction breaks a concept down into a simplified description that ignores uni
 An abstraction should follow <Hb>the rule of least astonishment</Hb>. This rule suggests that essential <Hb>attributes</Hb> and <Hb>behaviours</Hb> should be captured with no surprises and no definitions that fall beyond its scope.
 
 
-![Abstraction](/img/cs/cs446/Abstraction.jpg)
+![Abstraction](/img/cs/cs446/abstraction.jpg)
 ```java
 
 public class Food {
@@ -92,7 +92,7 @@ public class Food {
 ## Decomposition
 
 ### Association
-Loose Relationship, No Possession.
+The two objects are completely separate, but have a loose relationship.
 
 ```java
 public class Person {
@@ -104,7 +104,7 @@ public class Person {
 ```
 
 ### Aggregation
-"Has-a" Relationship.
+"Has-a" Relationship. Although parts can belong to wholes, they can also exist independently.
 
 ```java
 public class Airliner {
@@ -119,6 +119,9 @@ public class Airliner {
 ```
 
 ### Composition
+A whole cannot exist without its parts, and if the whole is destroyed, then the parts are destroyed too.
+
+A house is made up of multiple rooms, but if you remove the house, the room no longer exists.
 
 ```java
 public class House {
