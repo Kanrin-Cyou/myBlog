@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Guanlun's Blog",
-  tagline: "I'm a self-taught programmer with years experience in Quantum Physics and now specialized in software development.",
+  tagline: "I'm a full-time developer at Rakuten, used to study in Quantum Physics.",
   url: 'https://guanlunblog.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>  
         I grew up in China and obtained my bachelor's degree from University of Waterloo in Canada.
-        Now I am studying at Waseda University in Tokyo.
+        I graduated from Waseda University in 2020 with my master degree in Quantum Optics.
       </>
     ),
   },
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_Firmware_jw6u.svg').default,
     description: (
       <>
-        During my studies in University, I gained years experience in programming.
+        I joined Rakuten in 2021 and have been working there as a full-time developer.
         I love programming and building application that benefits people. 
       </>
     ),
