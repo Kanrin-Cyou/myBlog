@@ -7,7 +7,7 @@ sidebar_position: 1
 export const Hb = ({children, color}) => (
   <span
     style={{
-      backgroundColor: '#1877F2',
+      backgroundColor: '#0090ff',
       borderRadius: '2px',
       color: '#fff',
       padding: '0.2rem',
@@ -48,6 +48,7 @@ export const Hc = ({children, color}) => (
 
 ## 日语原则
 
+
 <Hb>一句话可以没有其他结构，但至少得有一个述语。</Hb>
 <br/>
 <br/>
@@ -61,9 +62,10 @@ export const Hc = ({children, color}) => (
 - 時間が<Hc>あったら</Hc>、いつも日本語を<Hc>研究しています</Hc>。
 
 
-***
+
 
 ## 日语结构
+
 
 1. <Hb>文章</Hb>
 1. <Hb>段落</Hb>
@@ -73,9 +75,10 @@ export const Hc = ({children, color}) => (
 1. <Hb>单词</Hb>：友達
 
 
-***
+
 
 ## 日语句子结构
+
 
 主要：<Hr>主题</Hr> + <Hb>连体修饰语</Hb> + <Hb>补足语</Hb> + <Hb>连用修饰语</Hb> + <Hr>述语</Hr>
 
@@ -125,7 +128,7 @@ export const Hc = ({children, color}) => (
 <Hb>もっと早く</Hb> <Hb>うちへ</Hb>帰ってきてください。<br/>
 <Hb>私の誕生日に</Hb> <Hb>日本語の先生と先輩が</Hb> <Hb>プレゼントを</Hb>用意して来れました。<br/>
 
-***
+
 
 ## 主题
 
@@ -144,8 +147,6 @@ export const Hc = ({children, color}) => (
 
 当述语的主语<Hb>不是</Hb>主题时，使用<Hr>が</Hr>，重点在<Hb>主语</Hb>
 
-<br/>
-
 #### 主语作为补足语并非必要成分
 - 雨だ。
 - 八時ですよ。
@@ -158,7 +159,7 @@ export const Hc = ({children, color}) => (
 
 
 
-***
+
 
 ## 述语
 
@@ -179,7 +180,7 @@ export const Hc = ({children, color}) => (
 - 〇〇<Hb>が</Hb>何<Hb>を</Hb>した:做了什么
 
 
-***
+
 
 ## 补足语
 
@@ -192,7 +193,7 @@ export const Hc = ({children, color}) => (
 <Hc>学校へ</Hc>行くます。<br/>
 <Hc>友達と</Hc> <Hc>バスで</Hc> <Hc>学校へ</Hc>行きます。
 
-***
+
 
 ## 修饰语
 
@@ -238,7 +239,7 @@ export const Hc = ({children, color}) => (
 
   - <Hc>朝顔の</Hc>種をまく。
 
-***
+
 
 ## 接续语
 
@@ -248,7 +249,7 @@ export const Hc = ({children, color}) => (
 ### 单词和单词之间的关系
 - テストの時は　鉛筆<Hb>または</Hb>ボールペンを　使ってください。
 
-***
+
 
 ## 并立语
 
@@ -258,7 +259,7 @@ export const Hc = ({children, color}) => (
 ### 用言的并列（て）
 うちは狭く<Hb>て</Hb>汚い。
 
-***
+
 
 ## 独立语｜独立部
 与句中其他成分没有之间关系，独立成分（或同位语）

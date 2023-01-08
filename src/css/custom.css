@@ -6,12 +6,18 @@
  */
 
 /* You can override the default Infima variables here. */
+
+
 :root {
-  --ifm-color-primary: #000;
-  --ifm-color-primary-light: #000;
-  --ifm-color-primary-lighter: #000;
-  --ifm-color-primary-lightest: #000;
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
   --ifm-code-font-size: 95%;
+  /* --ifm-font-family-base: "serif"; */
   /* --dev-dash-bg: url("../../static/img/bg.jpg") no-repeat; */
 }
 
@@ -41,6 +47,8 @@ article {
   text-align: left;
   box-sizing: border-box;
   text-shadow: 0 0 2px rgb(0 0 0 / 30%);
+  letter-spacing: 2px;
+  font-size: 1rem;
 }
 
 /* .navbar{
@@ -62,3 +70,56 @@ article {
 .pagination-nav__link{
   background: rgba(255,255,255,0.6);
 }
+
+h1 {
+  line-height: 1.5;
+  font-size: 2rem;
+  color: #000;
+  text-shadow: 0 0 2px rgb(0 0 0 / 30%);
+}
+
+h2 {
+  background: #0090ff;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  border-radius: 3px;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+
+h2::before {
+  display: inline-block;
+  content: "●";
+  padding-right: 0.6rem;
+  transform: translateY(-50%) scaleX(0.85) skew(-18deg);
+  font-size: .5rem;
+}
+
+h3 {
+  background: rgba(0,143,254,0.1);
+  color: #000;
+  letter-spacing: 2px;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  border-radius: 3px;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+
+span {
+  margin-left: 0rem;
+  margin-right: 0.3rem;
+}
+
+/* .sub::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+  height: 100%;
+  border-left: 7px solid #0090ff;
+  border-radius: 3.5px;
+}
+
+#0090ff;
+rgba(0,143,254,0.1) */
