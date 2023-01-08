@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Study Globally ',
+    title: 'Education',
     Svg: require('../../static/img/undraw_Traveling_re_weve.svg').default,
     description: (
       <>  
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Programming',
+    title: 'Experience',
     Svg: require('../../static/img/undraw_Firmware_jw6u.svg').default,
     description: (
       <>
