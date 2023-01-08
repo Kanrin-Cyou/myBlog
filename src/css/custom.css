@@ -48,7 +48,7 @@ article {
   box-sizing: border-box;
   text-shadow: 0 0 2px rgb(0 0 0 / 30%);
   letter-spacing: 2px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* .navbar{
@@ -109,6 +109,7 @@ h3 {
 span {
   margin-left: 0rem;
   margin-right: 0.3rem;
+  padding: 1rem 1.5rem 0.75rem 1rem;
 }
 
 /* .sub::before {
