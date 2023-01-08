@@ -7,14 +7,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3578e5;
-  --ifm-color-primary-dark: #1d68e1;
-  --ifm-color-primary-darker: #1b62d4;
-  --ifm-color-primary-darkest: #1751af;
-  --ifm-color-primary-light: #4e89e8;
-  --ifm-color-primary-lighter: #5a91ea;
-  --ifm-color-primary-lightest: #80aaef;
+  --ifm-color-primary: #000;
+  --ifm-color-primary-light: #000;
+  --ifm-color-primary-lighter: #000;
+  --ifm-color-primary-lightest: #000;
   --ifm-code-font-size: 95%;
+  text-shadow: 0 0 2px rgb(0 0 0 / 30%);
+  /* --dev-dash-bg: url("../../static/img/bg.jpg") no-repeat; */
 }
 
 .docusaurus-highlight-code-line {
@@ -26,4 +25,40 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-wrapper {
+  background-image: url("../../static/img/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  margin: 0 auto 3rem;
+  padding: 3rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* .navbar{
+  background: #dcf6ff
+} */
+
+.menu {
+  background: rgba(255,255,255,0.6)
+  /* border-radius: 20px;
+  margin: 0 auto 3rem; */
+  /* padding: 3rem; */
+}
+
+.table-of-contents{
+  background: rgba(255,255,255,0.6);
+  border-radius: 10px;
+}
+
+.pagination-nav__link{
+  background: rgba(255,255,255,0.6);
 }

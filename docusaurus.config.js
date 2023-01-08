@@ -112,6 +112,13 @@ module.exports = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java'],
     },
+
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+
   },
 
   presets: [
