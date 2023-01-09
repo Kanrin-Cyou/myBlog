@@ -97,7 +97,7 @@ A conjunction is a connector used to join clauses, phrases or sentences.
 
 **从属连词 Subordinating Conjunction**
 
-|   名词句从句  |   形容词从句  |   副词性从句  |
+|   名词性从句  |   形容词性从句  |   副词性从句  |
 |---|---|---|
 |   主语从句  |   定语从句  |   状语从句  |
 |   宾语从句  |     |     |
@@ -132,13 +132,13 @@ A conjunction is a connector used to join clauses, phrases or sentences.
 
 |     |     |        |             |                |
 |------------|--------------------|------------------------|---------------------|-----------------------------|
-|   1 时间  |   When/While/As    |   After/Before         |   Since             |   By the time               |
+|   时间  |   When/While/As    |   After/Before         |   Since             |   By the time               |
 |            |   Till/Until       |   As soon as           |   Every time        |   The first/last/next time  |
-|   2 地点   |   where            |                        |                     |                             |
-|   3 原因   |   because          |   sicne                |   as                |   &lt;,for&gt;                    |
-|   4 结果   |   &lt;so…that&gt;        |   &lt;such…that&gt;          |   &lt;be such that…&gt;   |                             |
-|   5 目的   |   so that          |   in order that        |                     |                             |
-|   6 条件   |   If               |   In case              |   So/As long as     |   Suppose(that)             |
-|   7 让步   |   Although/though  |   Even if/even though  |   while             |   No matter+疑问词          |
-|   8 方式   |   as               |   The way              |   As if/ as though  |                             |
-|   9 比较   |   than             |   As…as                |                     |                             |
+|   地点   |   where            |                        |                     |                             |
+|   原因   |   because          |   sicne                |   as                |   &lt;,for&gt;                    |
+|   结果   |   &lt;so…that&gt;        |   &lt;such…that&gt;          |   &lt;be such that…&gt;   |                             |
+|   目的   |   so that          |   in order that        |                     |                             |
+|   条件   |   If               |   In case              |   So/As long as     |   Suppose(that)             |
+|   让步   |   Although/though  |   Even if/even though  |   while             |   No matter+疑问词          |
+|   方式   |   as               |   The way              |   As if/ as though  |                             |
+|   比较   |   than             |   As…as                |                     |                             |
