@@ -46,7 +46,7 @@ article {
   padding: 3rem;
   text-align: left;
   box-sizing: border-box;
-  text-shadow: 0 0 2px rgb(0 0 0 / 40%);
+  text-shadow: 0 0 2px rgb(0 0 0 / 30%);
   letter-spacing: 2px;
   font-size: 1.2rem;
 }
@@ -57,9 +57,6 @@ article {
 
 .menu {
   background: rgba(255,255,255,0.6)
-  /* border-radius: 20px;
-  margin: 0 auto 3rem; */
-  /* padding: 3rem; */
 }
 
 .table-of-contents{
