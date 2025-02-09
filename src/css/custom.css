@@ -119,6 +119,26 @@ code span {
   padding: 0rem 0rem 0rem 0rem;
 }
 
+.highlight {
+  border-radius: 2px;
+  color: #fff;
+  padding: 0.2rem;
+  display: inline-block;
+}
+
+/* 特定背景颜色 */
+.highlight-hb {
+  background-color: #1877F2;
+}
+
+.highlight-hr {
+  background-color: #F00175;
+}
+
+.highlight-hc {
+  background-color: #25c2a0;
+}
+
 /* .sub::before {
   content: "";
   position: absolute;

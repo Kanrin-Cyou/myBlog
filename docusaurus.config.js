@@ -1,6 +1,3 @@
-const lightCodeTheme = require('prism-react-renderer/themes/dracula');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Guanlun's Blog",
@@ -106,19 +103,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus. <br/> <a href=\'https://ariacompany.net/\'>ARIAコンパニー</a> as Theme Reference.`
     },
-
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-      additionalLanguages: ['java'],
-    },
-
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
-    },
-
   },
 
   presets: [
