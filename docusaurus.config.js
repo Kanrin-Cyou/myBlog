@@ -10,9 +10,7 @@ module.exports = {
   organizationName: 'Kanrin-Cyou', // Usually your GitHub org/user name.
   projectName: "myBlog", // Usually your repo name.
 
-  
   themeConfig: {
-
     navbar: {
       title: "",
       logo: {
@@ -41,12 +39,6 @@ module.exports = {
           label: 'Japanese',
           activeBaseRegex: `/docs-japanese/`,
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/Kanrin-Cyou',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
       ],
     },
     
@@ -136,7 +128,6 @@ module.exports = {
         path: 'docs-english',
         routeBasePath: 'docs-english',
         sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
       },
     ],
     [
@@ -146,7 +137,6 @@ module.exports = {
         path: 'docs-japanese',
         routeBasePath: 'docs-japanese',
         sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
       },
     ],
   ],
