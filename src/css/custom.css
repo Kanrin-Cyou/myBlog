@@ -7,10 +7,10 @@
 
 /* You can override the default Infima variables here. */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap');
+  font-weight: 500;
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap');
   font-display: swap;
 }
 
@@ -54,7 +54,7 @@ article {
   box-sizing: border-box;
   text-shadow: 0 0 2px rgb(0 0 0 / 30%);
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* .navbar{
@@ -92,29 +92,77 @@ h1 {
 h2 {
   background: #0090ff;
   color: #fff;
-  letter-spacing: 2px;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  margin-top: 2.5rem;
+  padding: .75rem 1.5rem .75rem 1.2rem;
   border-radius: 3px;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  line-height: 1.2;
+  font-size: 1.3rem;
 }
 
 h2::before {
   display: inline-block;
-  content: "●";
-  padding-right: 0.6rem;
-  transform: translateY(-50%) scaleX(0.85) skew(-18deg);
-  font-size: .5rem;
+  content: "❀";
+  padding-right: 1rem;
+  font-size: 1.25rem;
 }
 
 h3 {
   background: rgba(0,143,254,0.1);
   color: #000;
   letter-spacing: 2px;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  margin-top: 0rem !important;
+  padding: .75rem 1.5rem .75rem 1.2rem;
   border-radius: 3px;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+
+h3::before {
+  display: inline-block;
+  content: "●";
+  padding-right: 1rem;
+  transform: translateY(-50%) scaleX(0.85) skew(-18deg);
+  font-size: .5rem;
+}
+
+h4 {
+  position: relative; /* 添加定位属性 */
+  margin: 1.5rem 0 .5rem 1.5rem;
+  padding: .25rem 0;
   line-height: 1.5;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+h4::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: -1.3rem;
+  height: 80%;
+  width: 7px; /* 使用宽度而不是边框实现左侧条 */
+  background-color: #0090ff; /* 替代 border-left */
+  border-radius: 3.5px;
+}
+
+h5 {
+  background: rgba(0, 143, 254, .2);
+  display: inline-block;
+  margin-top: 0 !important;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+h6 {
+  background: rgba(255, 0, 85, .2);
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 0 !important;;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 1.2rem;
 }
 
 span {
@@ -131,6 +179,12 @@ code span {
   margin-left: 0rem;
   margin-right: 0rem;
   padding: 0rem 0rem 0rem 0rem;
+}
+
+h4 a[href^="#"],
+h5 a[href^="#"],
+h6 a[href^="#"] {
+  display: none;
 }
 
 .highlight {
@@ -154,15 +208,3 @@ code span {
   background-color: #25c2a0;
 }
 
-/* .sub::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -1.5rem;
-  height: 100%;
-  border-left: 7px solid #0090ff;
-  border-radius: 3.5px;
-}
-
-#0090ff;
-rgba(0,143,254,0.1) */
