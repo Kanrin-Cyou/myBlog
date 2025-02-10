@@ -13,8 +13,14 @@ export const Hr = ({ children }) => (
     </span>
 );
 
-export const Hc = ({ children }) => (
-    <span className="highlight highlight-hc">
+export const Hg = ({ children }) => (
+    <span className="highlight highlight-hg">
+        {children}
+    </span>
+);
+
+export const Hp = ({ children }) => (
+    <span className="highlight highlight-hp">
         {children}
     </span>
 );
