@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            href="https://guanlunportfolio.netlify.app/">
+            href="https://portfolio.zhallen.com/">
             Hire Me
           </Link>
         </div>

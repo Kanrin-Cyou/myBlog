@@ -80,7 +80,7 @@ module.exports = {
           items: [
             {
               label: 'Resume',
-              href: 'https://guanlunportfolio.netlify.app/',
+              href: 'https://portfolio.zhallen.com/',
             },
             {
               label: 'GitHub',
