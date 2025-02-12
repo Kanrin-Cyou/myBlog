@@ -11,13 +11,23 @@ module.exports = {
   projectName: "myBlog", // Usually your repo name.
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+    docs: {
+      sidebar: {
+        // hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: "",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo2.svg',
       },
-      
       items: [
         {
           to: '/docs/intro',
@@ -41,7 +51,6 @@ module.exports = {
         },
       ],
     },
-    
     footer: {
       style: 'dark',
       links: [
@@ -96,7 +105,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus. <br/> <a href=\'https://ariacompany.net/\'>ARIAコンパニー</a> as Theme Reference.`
     },
   },
-
   presets: [
     [
       '@docusaurus/preset-classic',
