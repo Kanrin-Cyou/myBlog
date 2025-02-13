@@ -151,6 +151,7 @@ h5 {
   display: inline-block;
   margin-top: 0 !important;
   padding: 5px 15px;
+  margin-right:1rem;
   box-sizing: border-box;
   border-radius: 15px;
   font-size: 1.2rem;
@@ -161,6 +162,7 @@ h6 {
   display: inline-block;
   padding: 5px 15px;
   margin-top: 0 !important;;
+  margin-right: 1rem;
   box-sizing: border-box;
   border-radius: 15px;
   font-size: 1.2rem;
@@ -213,3 +215,8 @@ h6 a[href^="#"] {
   background-color: rgba(129, 41, 144, .95);
 }
 
+.flex-container {
+  display: flex; /* 启用 Flexbox 布局 */
+  justify-content: left; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
