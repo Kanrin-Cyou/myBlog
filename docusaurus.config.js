@@ -102,7 +102,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus. <br/> <a href=\'https://ariacompany.net/\'>ARIAコンパニー</a> as Theme Reference.`
+      copyright: `Copyright © ${new Date().getFullYear()} Guanlun's Blog. Built with Docusaurus. <br/> <a href=\'https://ariacompany.net/\'>ARIAコンパニー</a> as Theme Reference. <br/> O, God. Thy sea is so great and my boat is so small.`
     },
   },
   presets: [
