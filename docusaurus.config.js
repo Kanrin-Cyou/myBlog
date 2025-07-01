@@ -49,6 +49,12 @@ module.exports = {
           label: 'Japanese',
           activeBaseRegex: `/docs-japanese/`,
         },
+        {
+          to: '/docs-tech/intro',
+          position: 'left',
+          label: 'Tech',
+          activeBaseRegex: `/docs-tech/`,
+        },
       ],
     },
     footer: {
@@ -144,6 +150,15 @@ module.exports = {
         id: 'docs-japanese',
         path: 'docs-japanese',
         routeBasePath: 'docs-japanese',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-tech',
+        path: 'docs-tech',
+        routeBasePath: 'docs-tech',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
